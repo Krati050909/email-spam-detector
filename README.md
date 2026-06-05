@@ -8,21 +8,38 @@ Due to size limitations, the dataset is not included in this repository.
 You can download it from: 👉 https://www.kaggle.com/ (search: Phishing Email Dataset)
 
 🚀 Features
-⚡ Fast prediction using TF-IDF + Naive Bayes
-🤖 Optional AI analysis (Transformer-based)
-📂 Upload email text files
-🔗 URL detection in emails
-📊 Confidence score visualization
-🌐 Interactive web app using Streamlit
+
+ ⚡ Fast prediction using TF-IDF + Naive Bayes
+ 
+ 🤖 Optional AI analysis (Transformer-based)
+ 
+ 📂 Upload email text files
+ 
+ 🔗 URL detection in emails
+ 
+ 📊 Confidence score visualization
+ 
+ 🌐 Interactive web app using Streamlit
+
 🧠 Tech Stack
+
 Python
+
 Scikit-learn
+
 NLTK
+
 Streamlit
+
 Transformers (optional AI)
+
 📊 Model Performance
+
 Accuracy: ~95%
+
 Dataset: Phishing_Email.csv
+
 ▶️ How to Run
+
 pip install -r requirements.txt
 streamlit run app.py
