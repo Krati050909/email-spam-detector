@@ -1,45 +1,76 @@
 # email-spam-detector
-An end-to-end machine learning web application built with Scikit-learn and Streamlit to detect spam emails.”
-An AI + Machine Learning based web application that detects phishing emails using Natural Language Processing (NLP).
 
-📂 Dataset
-Due to size limitations, the dataset is not included in this repository.
+An intelligent Email Spam Detection System built using Python, Machine Learning, and Natural Language Processing (NLP). This application analyzes email content and classifies messages as **Spam** or **Ham (Legitimate)** using a trained machine learning model. The project demonstrates the application of NLP techniques and predictive analytics to improve email security and user experience.
 
-You can download it from: 👉 https://www.kaggle.com/ (search: Phishing Email Dataset)
+## 🚀 Features
 
-🚀 Features
+* Spam and Ham email classification
+* Real-time email prediction
+* Text preprocessing and cleaning
+* Feature extraction using NLP techniques
+* Machine Learning-based classification model
+* Simple and user-friendly interface
 
- ⚡ Fast prediction using TF-IDF + Naive Bayes
- 
- 🤖 Optional AI analysis (Transformer-based)
- 
- 📂 Upload email text files
- 
- 🔗 URL detection in emails
- 
- 📊 Confidence score visualization
- 
- 🌐 Interactive web app using Streamlit
+## 🛠️ Tech Stack
 
-🧠 Tech Stack
+* Python
+* Scikit-learn
+* Pandas
+* NumPy
+* NLTK
+* Streamlit / Flask
+* Pickle
 
-Python
+## 📂 Project Workflow
 
-Scikit-learn
+1. Data Collection
+2. Data Preprocessing
+3. Text Cleaning and Tokenization
+4. Feature Extraction
+5. Model Training
+6. Model Evaluation
+7. Spam Prediction
 
-NLTK
+## 🎯 Objective
 
-Streamlit
+To develop a machine learning-based system capable of automatically detecting and filtering spam emails, helping users identify unwanted or potentially harmful messages.
 
-Transformers (optional AI)
+## 🚀 How to Run
 
-📊 Model Performance
+1. Clone the repository:
 
-Accuracy: ~95%
+```bash
+git clone https://github.com/Krati050909/email-spam-detector.git
+```
 
-Dataset: Phishing_Email.csv
+2. Navigate to the project directory:
 
-▶️ How to Run
+```bash
+cd email-spam-detector
+```
 
+3. Install dependencies:
+
+```bash
 pip install -r requirements.txt
+```
+
+4. Run the application:
+
+```bash
 streamlit run app.py
+```
+
+5. Open the local URL displayed in the terminal and start testing emails.
+
+## 📈 Key Highlights
+
+* Developed a Machine Learning model for spam detection.
+* Applied Natural Language Processing techniques for text analysis.
+* Implemented feature extraction and data preprocessing pipelines.
+* Built an interactive web application for real-time predictions.
+
+## 📜 License
+
+This project is developed for educational and learning purposes.
+
